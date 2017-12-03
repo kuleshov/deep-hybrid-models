@@ -27,7 +27,7 @@ To install this package, simply clone the git repo:
 
 ```
 git clone https://github.com/kuleshov/deep-hybrid-models.git;
-cd audio-super-res;
+cd deep-hybrid-models;
 ```
 
 In the paper, we define two families of deep hybrid models having, respectively, explicit and implicit densities.
@@ -38,7 +38,7 @@ We provide code for each in two separate subfolders.
 This subfolder contains code for fully-supervised explicit-density hybrid models 
 in which the generative component is an auxiliary deep generative model, and the discriminative component is a convolutional neural network.
 
-We experiment with this approach in the paper, and show that training both methods improves the accuracy on MNIST and SVHN.
+We experiment with this approach in the paper, and show that training the two methods jointly improves classification accuracy on MNIST and SVHN.
 
 To run a model, you may use the `run.py` launch script.
 
