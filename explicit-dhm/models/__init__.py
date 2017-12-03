@@ -1,0 +1,3 @@
+from supervised_mlp import SupervisedMLP
+from supervised_cnn import SupervisedCNN
+from supervised_hdgm import SupervisedHDGM
